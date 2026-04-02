@@ -1,11 +1,17 @@
 #include <stdio.h>
-#include <string.h>
-#include <ctype.h>
-int main(void)
+
+int main()
 {
-//    char name[8];
-   // char* name = "Hello";
-   char c = '\t';
-   // printf("%p\n", name);
-   printf("%d\n", iscntrl(c));
+   int s, area, peri;
+
+   printf("Enter s:");
+   scanf("%d", &s);
+
+   area = s * s;
+   peri = 4 * s;
+
+   printf("Area is = %d\n", area);
+   printf("Perimeter is = %d\n", peri);
+
+   return 0;
 }
