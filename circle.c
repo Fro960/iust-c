@@ -10,7 +10,7 @@ int main()
    area = 3.14 * r * r;
    peri = 2 * 3.14 * r;
 
-   printf("area = %f\n perimeter = %f\n", area, peri);
+   printf("area = %f\nperimeter = %f\n", area, peri);
 
    return 0;
 
