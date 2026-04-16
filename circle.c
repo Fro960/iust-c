@@ -2,11 +2,23 @@
 
 int main()
 {
-   for(int i=0; i < 5; i++)
+   int num;
+   printf("Enter a num: ");
+   scanf("%d", &num);
+
+   if (num > 0)
    {
-      printf("Hello world\n");
+      printf("Positive\n");
    }
 
-   return 0;
+   else if(num < 0)
+   {
+      printf("Negative\n");
+   }
+
+   else
+   {
+      printf("Zero\n");
+   }
 
 }
