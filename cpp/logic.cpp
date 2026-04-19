@@ -7,13 +7,13 @@ int main(void)
     bool isHr = false;
     int secLevel = 3;
 
-    if (!(isHr) && (employee || secLevel))
+    if (isHr || (employee && secLevel < 2))
     {
-        cout << "Authorised";
+        cout << "Authorised" << endl;
     }
     else
     {
-        cout << "Not Authorised";
+        cout << "Not Authorised" << endl;
     }
 
     return 0;
