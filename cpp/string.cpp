@@ -8,6 +8,7 @@ int main(void)
     string fullName;
     cout << "Enter full name: ";
     getline(cin, fullName);
-    cout << "My name is " << fullName << endl;
+    fullName.at(0) = 'w';
+    cout << fullName.at(1) << endl;
     return 0;
 }
