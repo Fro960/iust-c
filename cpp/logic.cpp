@@ -3,19 +3,17 @@ using namespace std;
 
 int main(void)
 {
-    int age;
-    bool citizen = true;
+    bool employee = true;
+    bool isHr = false;
+    int secLevel = 3;
 
-    cout << "Enter age: ";
-    cin >> age;
-
-    if (age >= 18 && citizen)
+    if (!(isHr) && (employee || secLevel))
     {
-        cout << "Eligible to vote!" << endl;
+        cout << "Authorised";
     }
     else
     {
-        cout << "Not eligible to vote!" << endl;
+        cout << "Not Authorised";
     }
 
     return 0;
