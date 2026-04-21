@@ -3,7 +3,7 @@
 int main(void)
 {
     int per;
-    int marks = 0;83
+    int marks = 0;
     float const TM = 500.0;
 
     for (int i = 0; i < 5; i++)
