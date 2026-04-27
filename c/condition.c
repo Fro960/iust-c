@@ -20,11 +20,11 @@ int main(void)
     {
         printf("Grade A\n");
     }
-    else if (perc > 80 && per < 90)
+    else if (perc > 80 && perc < 90)
     {
         printf("Grade B\n");
     }
-    else if (perc > 70 && per < 80)
+    else if (perc > 70 && perc < 80)
     {
         printf("Grade C\n");
     }
