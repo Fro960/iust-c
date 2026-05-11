@@ -6,11 +6,11 @@ int main(void)
 
     scanf("%d %d %d %d", &a, &b, &c, &d);
 
-    if (a > b)
+    if (a >= b)
     {
-        if (a > c)
+        if (a >= c)
         {
-            if (a > d)
+            if (a >= d)
             {
                 printf("%d is the greatest!", a);
             }
@@ -21,7 +21,7 @@ int main(void)
         }
         else
         {
-            if (c > d)
+            if (c >= d)
             {
                 printf("%d is the greatest!", c);
             }
@@ -33,9 +33,9 @@ int main(void)
     }
     else
     {
-        if (b > c)
+        if (b >= c)
         {
-            if (b > d)
+            if (b >= d)
             {
                 printf("%d is the greatest!", b);
             }
@@ -46,7 +46,7 @@ int main(void)
         }
         else
         {
-            if (c > d)
+            if (c >= d)
             {
                 printf("%d is the greatest!", c);
             }
