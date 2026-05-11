@@ -2,57 +2,113 @@
 
 int main(void)
 {
-    int a, b, c, d;
+    int a, b, c, d, e;
 
-    scanf("%d %d %d %d", &a, &b, &c, &d);
+    scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
 
-    if (a >= b)
+    if (a > b)
     {
-        if (a >= c)
+        if (a > c)
         {
-            if (a >= d)
+            if (a > d)
             {
-                printf("%d is the greatest!", a);
+                if (a > e)
+                {
+                    printf("%d is the greatest!", a);
+                }
+                else 
+                {
+                    printf("%d is the greatest!", e);
+                }
             }
             else
             {
-                printf("%d is the greatest!", d);
+                if (d > e)
+                {
+                    printf("%d is the greatest!", d);
+                }
+                else
+                {
+                    printf("%d is the greatest!", e);
+                }
             }
         }
         else
         {
-            if (c >= d)
+            if (c > d)
             {
-                printf("%d is the greatest!", c);
+                if (c > e)
+                {
+                    printf("%d is the greatest!", c);
+                }
+                else 
+                {
+                    printf("%d is the greatest!", e);
+                }
             }
             else
             {
-                printf("%d is the greatest!", d);
+                if (d > e)
+                {
+                    printf("%d is the greatest!", d);
+                }
+                else
+                {
+                    printf("%d is the greatest!", e);
+                }
             }
         }
     }
-    else
+    else 
     {
-        if (b >= c)
+        if (b > c)
         {
-            if (b >= d)
+            if (b > d)
             {
-                printf("%d is the greatest!", b);
+                if (b > e)
+                {
+                    printf("%d is the greatest!", b);
+                }
+                else
+                {
+                    printf("%d is the greatest!", e);
+                }
             }
             else
             {
-                printf("%d is the greatest!", d);
+                if (d > e)
+                {
+                    printf("%d is the greatest!", d);
+                }
+                else
+                {
+                    printf("%d is the greatest!", e);
+                }
             }
         }
         else
         {
-            if (c >= d)
+            if (c > d)
             {
-                printf("%d is the greatest!", c);
+                if (c > e)
+                {
+                    printf("%d is the greatest!", c);
+                }
+                else
+                {
+                    printf("%d is the greatest!", e);
+                }
             }
             else
             {
-                printf("%d is the greatest!", d);
+                if (d > e)
+                {
+                    printf("%d is the greatest!", d);
+                }
+                else
+                {
+                    printf("%d is the greatest!", e);
+                }
             }
         }
     }
