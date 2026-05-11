@@ -2,31 +2,60 @@
 
 int main(void)
 {
-    int a, b, c;
-    scanf("%d %d %d", &a, &b, &c);
+    int a, b, c, d;
 
-    if (a >= b)
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+
+    if (a > b)
     {
-        if (a >= c)
+        if (a > c)
         {
-            printf("%d is greatest!", a);
+            if (a > d)
+            {
+                printf("%d is the greatest!", a);
+            }
+            else
+            {
+                printf("%d is the greatest!", d);
+            }
         }
         else
         {
-            printf("%d is greatest!", c);
+            if (c > d)
+            {
+                printf("%d is the greatest!", c);
+            }
+            else
+            {
+                printf("%d is the greatest!", d);
+            }
         }
     }
-    else 
+    else
     {
-        if (b >= c)
+        if (b > c)
         {
-            printf("%d is greatest!", b);
+            if (b > d)
+            {
+                printf("%d is the greatest!", b);
+            }
+            else
+            {
+                printf("%d is the greatest!", d);
+            }
         }
-        else 
+        else
         {
-            printf("%d is greatest!", c);
+            if (c > d)
+            {
+                printf("%d is the greatest!", c);
+            }
+            else
+            {
+                printf("%d is the greatest!", d);
+            }
         }
     }
-    
+
     return 0;
 }
